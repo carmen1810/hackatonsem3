@@ -103,3 +103,40 @@ function makeCounter() {
   let counter = makeCounter()
   console.log(counter())
  ///ejercicio 7////
+           
+           
+           
+ ///ejercicio 8///
+ let list = {
+    value: 1,
+    next: {
+    value: 2,
+    next: {
+    value: 3,
+    next: {
+    value: 4,
+    next: null
+    }
+    }
+    }
+    };
+    console.log(list)
+           
+           
+  //con buble///
+
+    function printList(list) {
+        let a = list;
+      
+        while (a) {
+          console.log(a.value);
+          a = a.next;
+        }
+      
+      }
+      
+      printList(list);
+           
+           
+           
+           
