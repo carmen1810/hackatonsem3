@@ -43,3 +43,20 @@ console.log( aclean(arr) );
 
 //EJERCICIO 3///
 
+///let map = new Map();
+
+//map.set("name", "John");
+//7console.log(map)
+///let keys = map.keys();
+///console.log(keys)
+///keys.push("more");///
+
+let map = new Map();
+
+map.set("name", "John");
+
+let keys = Array.from(map.keys());
+
+keys.push("more");
+console.log(keys);
+////ejercicio 4////
