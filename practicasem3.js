@@ -64,4 +64,25 @@ console.log(keys);
 let i = 3;
 while (i) { alert( i-- ); /// es 3 porque bucle tiene una sola sentencia//
 //ejercicio 5////        
-           
+///function ask(question, yes, no) {
+///    if (confirm(question)) yes();
+///    else no();
+///  }
+  
+ /// ask(
+ ///   "Do you agree?",
+ ///   function() { console.log("You agreed."); },
+ ///   function() { console.log("You canceled the execution."); }
+ /// )
+
+function ask(question, yes, no) {
+    if (confirm(question)) yes();
+    else no();
+  }
+  
+  ask(
+    "Do you agree?",
+    () => console.log("You agreed."),
+    () => aconsole.log("You canceled the execution.")
+  );
+  //ejercicio 6///
