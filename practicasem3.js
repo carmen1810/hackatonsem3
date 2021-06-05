@@ -23,3 +23,5 @@ function getUniqueArray(array){
 }
 let a = ["Hare", "Krishna", "Hare", "Krishna", "Krishna", "Krishna", "Hare", "Hare", ":-O"];
 console.log(getUniqueArray(a));
+
+///EJERCICIO 2///
