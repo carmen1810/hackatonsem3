@@ -103,7 +103,14 @@ function makeCounter() {
   let counter = makeCounter()
   console.log(counter())
  ///ejercicio 7////
-           
+var number;
+
+do {
+  number = prompt("Ingresa un número mayor 100?", 0);
+} while (number <= 100 && number);
+
+console.log(number)
+    
            
            
  ///ejercicio 8///
