@@ -65,4 +65,3 @@ let i = 3;
 while (i) { alert( i-- ); /// es 3 porque bucle tiene una sola sentencia//
 //ejercicio 5////        
            
-           
