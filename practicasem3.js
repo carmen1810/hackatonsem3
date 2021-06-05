@@ -60,3 +60,9 @@ let keys = Array.from(map.keys());///Podemos convertirlo en una matriz usando Ar
 keys.push("more");
 console.log(keys);
 ////ejercicio 4////
+
+let i = 3;
+while (i) { alert( i-- ); /// es 3 porque bucle tiene una sola sentencia//
+//ejercicio 5////        
+           
+           
