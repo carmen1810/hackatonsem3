@@ -123,7 +123,7 @@ function makeCounter() {
     console.log(list)
            
            
-  //con buble///
+  //con bucle///
 
     function printList(list) {
         let a = list;
@@ -136,7 +136,20 @@ function makeCounter() {
       }
       
       printList(list);
-           
+   
+   ///recursiva
+      function printList(list) {
+
+       console.log(list.value); // genera el elemento actual
+      
+        if (list.next) {
+          printList(list.next); // hace lo mismo para el resto de la lista
+        }
+      
+      }
+      
+      printList(list);
+     /// el recursivo es mas entendible porque es corto, sin embargo se utiliza if y print juntos
            
            
            
