@@ -55,7 +55,7 @@ let map = new Map();
 
 map.set("name", "John");
 
-let keys = Array.from(map.keys());
+let keys = Array.from(map.keys());///Podemos convertirlo en una matriz usando Array.from:///
 
 keys.push("more");
 console.log(keys);
