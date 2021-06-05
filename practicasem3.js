@@ -86,3 +86,20 @@ function ask(question, yes, no) {
     () => aconsole.log("You canceled the execution.")
   );
   //ejercicio 6///
+           
+function makeCounter() {
+    let count = 0;
+  
+    function counter() {
+      return count++;
+    }
+  
+    counter.set = value => count = value;
+  
+    counter.decrease = () => count--;
+  
+    return counter;
+  }
+  let counter = makeCounter()
+  console.log(counter())
+ ///ejercicio 7////
